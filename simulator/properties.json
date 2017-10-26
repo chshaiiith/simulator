@@ -1,0 +1,16 @@
+{
+  "arrival": {
+    // supports deterministic, poisson
+    "distribution" : "deterministic"
+  },
+  "job": {
+    // supports deterministic, dete
+    "distribution": "deterministic"
+  },
+
+  "server" : {
+    "numberOfServers": 5,
+    "writeServer": 3,
+    "readServer" : 3
+  }
+}
